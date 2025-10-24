@@ -141,3 +141,10 @@ object JuegoPiedraPapelTijera {
  * 1. EJECUTAR ESTE ARCHIVO:
  *    mvn exec:java -Dexec.mainClass="JuegoPiedraPapelTijera"
  * */
+
+
+/*
+
+Montar el juego muy frio / frio / caliente / muy caliente  (0-20)
+
+*/
