@@ -78,6 +78,7 @@ object ProgramacionProcedural {
    * @return la suma de a y b
    */
   def sumar(a: Int, b: Int): Int = {
+    // return a + b  // En Scala, la última expresión es el valor de retorno
     a + b  // En Scala, la última expresión es el valor de retorno
   }
   

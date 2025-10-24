@@ -61,6 +61,8 @@ object BasicoScala {
     println("-" * 20)
     
     // En Scala, el tipo se puede inferir automáticamente
+    //val mensaje:String = "Scala es genial" // val = inmutable (como final en Java)
+    //var contador:Int = 0              // var = mutable
     val mensaje = "Scala es genial" // val = inmutable (como final en Java)
     var contador = 0              // var = mutable
     
@@ -81,6 +83,7 @@ object BasicoScala {
     val esVerdadero = true
     val esFalso = false
     val resultado = esVerdadero && !esFalso  // && = AND, || = OR, ! = NOT
+    // Esos operadores son en corto circuito como en Java.. También podemos usarlos sin corto circuito: & | ^
     
     println(s"Resultado lógico: $resultado")
     println()

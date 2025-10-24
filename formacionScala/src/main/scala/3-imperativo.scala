@@ -101,7 +101,7 @@ object ProgramacionImperativa {
     }
     println()
     
-    // DO-WHILE - Ejecuta al menos una vez, luego evalúa la condición
+    // DO-WHILE - Ejecuta al menos una vez, luego evalúa la condición .. En otros lenguajes llamados UNTIL
     println("Bucle do-while (10 a 7):")
     var numero = 10
     do {
@@ -140,7 +140,7 @@ object ProgramacionImperativa {
     
     // FOR básico con rango
     println("For con rango (1 a 5):")
-    for (i <- 1 to 5) {
+    for (i <- 1 to 5) {   // En python a un for(i in range(1,6)):
       print(s"$i ")
     }
     println()
@@ -185,6 +185,11 @@ object ProgramacionImperativa {
       print(s"${i*j} ")
       if (j == 3) println() // Nueva línea después de cada fila
     }
+    // En python eso:
+    // for i in range(1,4):
+    //     for j in range(1,4):
+    //         print(i*j, end=" ")
+    //     print()
     
     // FOR con yield (genera una nueva colección)
     println("For con yield (cuadrados de 1 a 5):")

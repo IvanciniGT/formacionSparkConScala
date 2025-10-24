@@ -173,6 +173,7 @@ object VariablesYTipos {
     val numeroGrande: Double = 123.789
     val enteroReducido: Int = numeroGrande.toInt      // Pierde los decimales
     val byteReducido: Byte = entero.toByte            // Puede perder información si es muy grande
+    // En python sería int()    float(). bool() str()
     
     println(s"Double original: $numeroGrande")
     println(s"Convertido a Int (sin decimales): $enteroReducido")

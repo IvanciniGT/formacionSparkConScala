@@ -8,19 +8,36 @@
     <groupId>com.formacion</groupId>
     <artifactId>formacion-scala</artifactId>
     <version>1.0.0</version>
+    <!-- La forma en la que nuestro proyecto se empaqueta para su distribución -->
+    <!-- 
+        .java -> compilacion (javac)   -> .class (bytecode de Java) \ 
+        .scala -> compilacion (scalac) -> .class (bytecode de Java) / Todos ellos los metemos en un zip -> extensión .jar
+        Eso es lo que se distribuye. Eso es lo que pasamos a la JVM para que lo ejecute.
+
+        Para otro tipo de proyectos (app Web, librerías, etc.) el packaging puede ser distinto
+    -->
     <packaging>jar</packaging>
 
+    <!-- Metadatos-->
     <name>Formación Scala</name>
     <description>Proyecto de formación en Scala - Conceptos básicos</description>
 
+    <!-- 
+      Aquí podemos definir:
+     - Variables que podemos usar a lo largo de to do el POM: scala.version
+     - Podemos sumnistrar variable de configuración para los plugins que usemos:
+       maven.compiler.source -> Esta es un propiedad que usa el plugin de compilación para determinar cómo producir el byte code.
+                                Sobre que versión de la máquina virtual de JAVA vamos a correr nuestro programa.
+    -->
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <scala.version>2.13.12</scala.version>
         <scala.binary.version>2.13</scala.binary.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> <!-- prop para el plugin que copia archivos -->
     </properties>
 
+    <!-- Librerías que nuestro proyecto necesita -->
     <dependencies>
         <!-- Scala Library -->
         <dependency>
@@ -37,10 +54,11 @@
         </dependency>
     </dependencies>
 
+    <!-- Aquí se configuran los plugins-->
     <build>
-        <sourceDirectory>src/main/scala</sourceDirectory>
+        <sourceDirectory>src/main/scala</sourceDirectory> <!-- Indicamos la carpeta que tiene nuestro código fuente -->
         <plugins>
-            <!-- Plugin para compilar Scala -->
+            <!-- Plugin para compilar Scala. Lo que hace es posibilita a MAVEN para llamar a la librería de compilación de scala -->
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>scala-maven-plugin</artifactId>
@@ -55,7 +73,12 @@
                 </executions>
             </plugin>
             
-            <!-- Plugin para ejecutar aplicaciones -->
+            <!-- 
+                Plugin para ejecutar aplicaciones fácilmente. Esto está bien para pruebas.
+                En nuestro caso, trabajando con Spark, la ejecución de programa irá por otro lado!
+                Se hace de otra forma... muy distinta.
+                Por ahora, para trabajar con Scala sin Spark...O para trabajar con Spark en local, si me sirve!
+            -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
