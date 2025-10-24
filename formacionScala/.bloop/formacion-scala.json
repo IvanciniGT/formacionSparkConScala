@@ -1,0 +1,235 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "formacion-scala",
+        "directory": "/Users/ivan/formacionApacheScala/formacionScala",
+        "workspaceDir": "/Users/ivan/formacionApacheScala/formacionScala",
+        "sources": [
+            "/Users/ivan/formacionApacheScala/formacionScala/src/main/scala"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/ivan/formacionApacheScala/formacionScala/target/classes",
+            "/Users/ivan/.m2/repository/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+            "/Users/ivan/.m2/repository/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar",
+            "/Users/ivan/.m2/repository/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar",
+            "/Users/ivan/.m2/repository/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+            "/Users/ivan/.m2/repository/org/jline/jline/3.22.0/jline-3.22.0.jar",
+            "/Users/ivan/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar",
+            "/Users/ivan/.m2/repository/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar"
+        ],
+        "out": "/Users/ivan/formacionApacheScala/formacionScala/target",
+        "classesDir": "/Users/ivan/formacionApacheScala/formacionScala/target/classes",
+        "resources": [
+            "/Users/ivan/formacionApacheScala/formacionScala/src/main/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.12",
+            "options": [
+                "-release",
+                "11"
+            ],
+            "jars": [
+                "/Users/ivan/.m2/repository/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar",
+                "/Users/ivan/.m2/repository/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
+                "/Users/ivan/.m2/repository/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+                "/Users/ivan/.m2/repository/org/jline/jline/3.22.0/jline-3.22.0.jar",
+                "/Users/ivan/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar",
+                "/Users/ivan/.m2/repository/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "11",
+                "-source",
+                "11",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.12",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/ivan/.m2/repository/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/ivan/.m2/repository/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "5.13.0",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "/Users/ivan/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar"
+                        },
+                        {
+                            "name": "jna",
+                            "classifier": "sources",
+                            "path": "/Users/ivan/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.java-diff-utils",
+                    "name": "java-diff-utils",
+                    "version": "4.12",
+                    "artifacts": [
+                        {
+                            "name": "java-diff-utils",
+                            "path": "/Users/ivan/.m2/repository/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar"
+                        },
+                        {
+                            "name": "java-diff-utils",
+                            "classifier": "sources",
+                            "path": "/Users/ivan/.m2/repository/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.13.12",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/Users/ivan/.m2/repository/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/Users/ivan/.m2/repository/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.12",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/ivan/.m2/repository/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/ivan/.m2/repository/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jline",
+                    "name": "jline",
+                    "version": "3.22.0",
+                    "artifacts": [
+                        {
+                            "name": "jline",
+                            "path": "/Users/ivan/.m2/repository/org/jline/jline/3.22.0/jline-3.22.0.jar"
+                        },
+                        {
+                            "name": "jline",
+                            "classifier": "sources",
+                            "path": "/Users/ivan/.m2/repository/org/jline/jline/3.22.0/jline-3.22.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

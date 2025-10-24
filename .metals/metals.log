@@ -1,0 +1,741 @@
+2025.10.24 08:58:46 INFO  Started: Metals version 1.6.3 in folders '/Users/ivan/formacionApacheScala' for client Visual Studio Code 1.104.3.
+2025.10.24 08:58:46 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.10.24 08:58:47 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:58:51 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+oct 24, 2025 8:58:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+oct 24, 2025 8:58:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.10.24 08:58:54 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/2-variables.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:58:55 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/2-variables.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:58:55 WARN  no build target for: /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/2-variables.scala
+2025.10.24 08:59:03 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:03 WARN  no build target for: /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala
+2025.10.24 08:59:03 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:03 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:03 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:03 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:12 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/7-fechas.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:12 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:12 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/7-fechas.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:12 WARN  no build target for: /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/7-fechas.scala
+2025.10.24 08:59:12 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:12 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:20 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:20 INFO  running '/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=/Users/ivan/formacionApacheScala/formacionScala -Dmaven.home=/var/folders/ql/3xynm5zs1s5c25p5559m3t_r0000gn/T/metals12680267466676978077 -cp /var/folders/ql/3xynm5zs1s5c25p5559m3t_r0000gn/T/metals12680267466676978077/maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.1:bloopInstall -DdownloadSources=true'
+2025.10.24 08:59:24 INFO  [INFO] Scanning for projects...
+2025.10.24 08:59:24 INFO  Downloading from central: https://repo.maven.apache.org/maven2/ch/epfl/scala/bloop-maven-plugin/2.0.1/bloop-maven-plugin-2.0.1.pom
+2025.10.24 08:59:24 INFO  Progress (1): 1.1 kB
+2025.10.24 08:59:24 INFO  Progress (1): 2.6 kB
+2025.10.24 08:59:24 INFO  Progress (1): 5.2 kB
+2025.10.24 08:59:24 INFO  Progress (1): 7.0 kB
+2025.10.24 08:59:24 INFO                      
+2025.10.24 08:59:24 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/ch/epfl/scala/bloop-maven-plugin/2.0.1/bloop-maven-plugin-2.0.1.pom (7.0 kB at 32 kB/s)
+2025.10.24 08:59:24 INFO  Downloading from central: https://repo.maven.apache.org/maven2/ch/epfl/scala/bloop-maven-plugin/2.0.1/bloop-maven-plugin-2.0.1.jar
+2025.10.24 08:59:24 INFO  Progress (1): 0.9/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 2.3/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 3.6/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 3.7/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 5.1/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 6.5/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 7.9/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 9.2/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 11/44 kB 
+2025.10.24 08:59:24 INFO  Progress (1): 12/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 13/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 15/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 16/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 17/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 19/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 20/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 22/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 23/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 24/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 26/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 27/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 28/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 30/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 31/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 32/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 34/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 35/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 37/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 38/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 39/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 41/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 42/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 43/44 kB
+2025.10.24 08:59:24 INFO  Progress (1): 44 kB   
+2025.10.24 08:59:24 INFO                     
+2025.10.24 08:59:24 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/ch/epfl/scala/bloop-maven-plugin/2.0.1/bloop-maven-plugin-2.0.1.jar (44 kB at 629 kB/s)
+2025.10.24 08:59:24 INFO  [INFO] 
+2025.10.24 08:59:24 INFO  [INFO] -------------------< com.formacion:formacion-scala >--------------------
+2025.10.24 08:59:24 INFO  [INFO] Building Formación Scala 1.0.0
+2025.10.24 08:59:24 INFO  [INFO]   from pom.xml
+2025.10.24 08:59:24 INFO  [INFO] --------------------------------[ jar ]---------------------------------
+2025.10.24 08:59:24 INFO  [INFO] 
+2025.10.24 08:59:24 INFO  [INFO] --- bloop:2.0.1:bloopInstall (default-cli) @ formacion-scala ---
+2025.10.24 08:59:24 INFO  Downloading from central: https://repo.maven.apache.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.2/bloop-config_2.13-2.0.2.pom
+2025.10.24 08:59:24 INFO  Progress (1): 1.4 kB
+2025.10.24 08:59:24 INFO  Progress (1): 2.3 kB
+2025.10.24 08:59:24 INFO                      
+2025.10.24 08:59:24 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.2/bloop-config_2.13-2.0.2.pom (2.3 kB at 22 kB/s)
+2025.10.24 08:59:24 INFO  Downloading from central: https://repo.maven.apache.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0.pom
+2025.10.24 08:59:24 INFO  Progress (1): 1.4 kB
+2025.10.24 08:59:24 INFO  Progress (1): 2.3 kB
+2025.10.24 08:59:24 INFO                      
+2025.10.24 08:59:24 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0.pom (2.3 kB at 20 kB/s)
+2025.10.24 08:59:24 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.pom
+2025.10.24 08:59:25 INFO  Progress (1): 1.2 kB
+2025.10.24 08:59:25 INFO  Progress (1): 1.6 kB
+2025.10.24 08:59:25 INFO                      
+2025.10.24 08:59:25 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.pom (1.6 kB at 28 kB/s)
+2025.10.24 08:59:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.pom
+2025.10.24 08:59:25 INFO  Progress (1): 1.3 kB
+2025.10.24 08:59:25 INFO  Progress (1): 1.5 kB
+2025.10.24 08:59:25 INFO                      
+2025.10.24 08:59:25 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.pom (1.5 kB at 16 kB/s)
+2025.10.24 08:59:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.pom
+2025.10.24 08:59:25 INFO  Progress (1): 1.1 kB
+2025.10.24 08:59:25 INFO  Progress (1): 1.6 kB
+2025.10.24 08:59:25 INFO                      
+2025.10.24 08:59:25 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.14/scala-library-2.13.14.pom (1.6 kB at 35 kB/s)
+2025.10.24 08:59:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/scala-maven-plugin/4.8.0/scala-maven-plugin-4.8.0.pom
+2025.10.24 08:59:25 INFO  Progress (1): 1.0 kB
+2025.10.24 08:59:25 INFO  Progress (1): 3.5 kB
+2025.10.24 08:59:25 INFO  Progress (1): 6.0 kB
+2025.10.24 08:59:25 INFO  Progress (1): 11 kB 
+2025.10.24 08:59:25 INFO  Progress (1): 14 kB
+2025.10.24 08:59:25 INFO  Progress (1): 17 kB
+2025.10.24 08:59:25 INFO  Progress (1): 22 kB
+2025.10.24 08:59:25 INFO  Progress (1): 24 kB
+2025.10.24 08:59:25 INFO  Progress (1): 26 kB
+2025.10.24 08:59:25 INFO                     
+2025.10.24 08:59:25 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/scala-maven-plugin/4.8.0/scala-maven-plugin-4.8.0.pom (26 kB at 325 kB/s)
+2025.10.24 08:59:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.6.0/plexus-archiver-4.6.0.pom
+2025.10.24 08:59:25 INFO  Progress (1): 1.2 kB
+2025.10.24 08:59:25 INFO  Progress (1): 4.1 kB
+2025.10.24 08:59:25 INFO  Progress (1): 6.4 kB
+2025.10.24 08:59:25 INFO  Progress (1): 6.5 kB
+2025.10.24 08:59:25 INFO                      
+2025.10.24 08:59:25 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.6.0/plexus-archiver-4.6.0.pom (6.5 kB at 80 kB/s)
+2025.10.24 08:59:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.2/bloop-config_2.13-2.0.2.jar
+2025.10.24 08:59:25 INFO  Progress (1): 3.8/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 8.0/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 12/213 kB 
+2025.10.24 08:59:25 INFO  Progress (1): 16/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 20/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 24/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 29/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 33/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 37/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 41/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 46/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 50/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 54/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 58/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 62/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 67/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 71/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 75/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 79/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 84/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 88/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 92/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 96/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 100/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 105/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 109/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 113/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 117/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 118/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 135/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 151/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 168/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 184/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 200/213 kB
+2025.10.24 08:59:25 INFO  Progress (1): 213 kB    
+2025.10.24 08:59:25 INFO                      
+2025.10.24 08:59:25 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/ch/epfl/scala/bloop-config_2.13/2.0.2/bloop-config_2.13-2.0.2.jar (213 kB at 2.8 MB/s)
+2025.10.24 08:59:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0.jar
+2025.10.24 08:59:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.jar
+2025.10.24 08:59:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/scala-maven-plugin/4.8.0/scala-maven-plugin-4.8.0.jar
+2025.10.24 08:59:25 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.6.0/plexus-archiver-4.6.0.jar
+2025.10.24 08:59:25 INFO  Progress (1): 7.7/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 16/168 kB 
+2025.10.24 08:59:25 INFO  Progress (1): 20/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 37/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 53/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 69/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 86/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 102/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 118/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 135/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 151/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 168/168 kB
+2025.10.24 08:59:25 INFO  Progress (1): 168 kB    
+2025.10.24 08:59:25 INFO                      
+2025.10.24 08:59:25 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.13/2.4.0/jsoniter-scala-core_2.13-2.4.0.jar (168 kB at 1.4 MB/s)
+2025.10.24 08:59:25 INFO  Progress (1): 0.9/159 kB
+2025.10.24 08:59:25 INFO  Progress (1): 2.3/159 kB
+2025.10.24 08:59:25 INFO  Progress (1): 3.7/159 kB
+2025.10.24 08:59:25 INFO  Progress (1): 5.0/159 kB
+2025.10.24 08:59:25 INFO  Progress (1): 6.4/159 kB
+2025.10.24 08:59:25 INFO  Progress (2): 6.4/159 kB | 0.9/1.3 kB
+2025.10.24 08:59:25 INFO  Progress (2): 6.4/159 kB | 1.3 kB    
+2025.10.24 08:59:25 INFO  Progress (3): 6.4/159 kB | 1.3 kB | 0.9/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 6.4/159 kB | 1.3 kB | 2.3/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 7.8/159 kB | 1.3 kB | 2.3/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 7.8/159 kB | 1.3 kB | 3.7/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 9.1/159 kB | 1.3 kB | 3.7/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 9.1/159 kB | 1.3 kB | 3.7/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 11/159 kB | 1.3 kB | 3.7/216 kB 
+2025.10.24 08:59:25 INFO  Progress (3): 11/159 kB | 1.3 kB | 5.1/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 12/159 kB | 1.3 kB | 5.1/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 12/159 kB | 1.3 kB | 6.5/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 13/159 kB | 1.3 kB | 6.5/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 13/159 kB | 1.3 kB | 7.8/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 15/159 kB | 1.3 kB | 7.8/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 15/159 kB | 1.3 kB | 9.2/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 16/159 kB | 1.3 kB | 9.2/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 16/159 kB | 1.3 kB | 11/216 kB 
+2025.10.24 08:59:25 INFO  Progress (3): 17/159 kB | 1.3 kB | 11/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 17/159 kB | 1.3 kB | 12/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 19/159 kB | 1.3 kB | 12/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 19/159 kB | 1.3 kB | 13/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 20/159 kB | 1.3 kB | 13/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 20/159 kB | 1.3 kB | 15/216 kB
+2025.10.24 08:59:25 INFO  Progress (3): 20/159 kB | 1.3 kB | 15/216 kB
+2025.10.24 08:59:25 INFO                                              
+2025.10.24 08:59:25 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/com/lihaoyi/unroll-annotation_2.13/0.1.12/unroll-annotation_2.13-0.1.12.jar (1.3 kB at 5.3 kB/s)
+2025.10.24 08:59:25 INFO  Progress (2): 20/159 kB | 16/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 21/159 kB | 16/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 23/159 kB | 16/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 23/159 kB | 17/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 24/159 kB | 17/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 24/159 kB | 19/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 26/159 kB | 19/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 26/159 kB | 20/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 27/159 kB | 20/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 28/159 kB | 20/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 28/159 kB | 22/216 kB
+2025.10.24 08:59:25 INFO  Progress (2): 30/159 kB | 22/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 30/159 kB | 23/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 31/159 kB | 23/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 31/159 kB | 24/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 32/159 kB | 24/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 34/159 kB | 24/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 35/159 kB | 24/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 35/159 kB | 26/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 37/159 kB | 26/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 37/159 kB | 27/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 38/159 kB | 27/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 38/159 kB | 28/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 39/159 kB | 28/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 39/159 kB | 30/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 41/159 kB | 30/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 41/159 kB | 31/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 42/159 kB | 31/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 42/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 43/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 45/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 46/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 48/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 49/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 50/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 52/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 53/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 54/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 59/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 63/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 67/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 71/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 75/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 80/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 84/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 88/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 92/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 97/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 101/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 105/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 109/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 114/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 118/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 122/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 126/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 130/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 135/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 139/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 143/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 147/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 151/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 155/159 kB | 32/216 kB
+2025.10.24 08:59:26 INFO  Progress (2): 159 kB | 32/216 kB    
+2025.10.24 08:59:26 INFO                                  
+2025.10.24 08:59:26 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/net/alchim31/maven/scala-maven-plugin/4.8.0/scala-maven-plugin-4.8.0.jar (159 kB at 587 kB/s)
+2025.10.24 08:59:26 INFO  Progress (1): 34/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 35/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 37/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 38/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 39/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 41/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 42/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 43/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 45/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 46/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 48/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 49/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 50/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 52/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 53/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 54/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 59/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 63/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 67/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 71/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 76/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 80/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 84/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 88/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 92/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 97/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 101/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 105/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 109/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 114/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 118/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 118/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 123/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 127/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 131/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 135/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 140/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 144/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 148/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 152/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 156/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 161/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 165/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 169/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 173/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 178/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 182/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 186/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 190/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 195/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 199/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 203/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 207/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 211/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 216/216 kB
+2025.10.24 08:59:26 INFO  Progress (1): 216 kB    
+2025.10.24 08:59:26 INFO                      
+2025.10.24 08:59:26 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.6.0/plexus-archiver-4.6.0.jar (216 kB at 654 kB/s)
+2025.10.24 08:59:26 INFO  [INFO] Resolving artifact: org.scala-lang:scala-library:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:26 INFO  [INFO] SUCCESS: org.scala-lang:scala-library:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:26 INFO  [INFO] Resolving artifact: org.scala-lang:scala-library:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:26 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar
+2025.10.24 08:59:26 INFO  Progress (1): 0/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.1/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.1/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.1/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.1/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.1/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.1/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.2/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.2/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.2/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.2/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.2/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.2/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.2/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.3/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.3/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.3/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.3/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.3/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.3/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.4/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.4/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.4/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.4/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.4/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.4/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.5/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.5/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.5/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.5/1.0 MB
+2025.10.24 08:59:26 INFO  Progress (1): 0.5/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.5/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/1.0 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0 MB    
+2025.10.24 08:59:27 INFO                      
+2025.10.24 08:59:27 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12-sources.jar (1.0 MB at 2.8 MB/s)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-library:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-compiler:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-compiler:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-compiler:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12-sources.jar
+2025.10.24 08:59:27 INFO  Progress (1): 0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 0.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.2/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.3/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.4/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.5/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.6/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.7/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.8/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 1.9/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 2.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 2.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 2.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 2.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 2.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 2.0/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 2.1/2.1 MB
+2025.10.24 08:59:27 INFO  Progress (1): 2.1 MB    
+2025.10.24 08:59:27 INFO                      
+2025.10.24 08:59:27 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-compiler/2.13.12/scala-compiler-2.13.12-sources.jar (2.1 MB at 8.9 MB/s)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-compiler:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-reflect:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-reflect:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-reflect:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12-sources.jar
+2025.10.24 08:59:27 INFO  Progress (1): 7.7/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 16/653 kB 
+2025.10.24 08:59:27 INFO  Progress (1): 32/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 49/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 53/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 69/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 86/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 102/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 118/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 129/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 145/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 162/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 178/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 195/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 211/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 227/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 244/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 260/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 277/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 293/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 309/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 326/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 342/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 358/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 375/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 391/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 408/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 424/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 440/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 457/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 473/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 490/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 506/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 522/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 539/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 555/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 571/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 588/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 604/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 621/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 637/653 kB
+2025.10.24 08:59:27 INFO  Progress (1): 653 kB    
+2025.10.24 08:59:27 INFO                      
+2025.10.24 08:59:27 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/scala-lang/scala-reflect/2.13.12/scala-reflect-2.13.12-sources.jar (653 kB at 5.9 MB/s)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-reflect:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: io.github.java-diff-utils:java-diff-utils:jar:4.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: io.github.java-diff-utils:java-diff-utils:jar:4.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: io.github.java-diff-utils:java-diff-utils:jar:4.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  Downloading from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12-sources.jar
+2025.10.24 08:59:27 INFO  Progress (1): 7.7/51 kB
+2025.10.24 08:59:27 INFO  Progress (1): 16/51 kB 
+2025.10.24 08:59:27 INFO  Progress (1): 20/51 kB
+2025.10.24 08:59:27 INFO  Progress (1): 37/51 kB
+2025.10.24 08:59:27 INFO  Progress (1): 51 kB   
+2025.10.24 08:59:27 INFO                     
+2025.10.24 08:59:27 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12-sources.jar (51 kB at 487 kB/s)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: io.github.java-diff-utils:java-diff-utils:jar:4.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.jline:jline:jar:3.22.0:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.jline:jline:jar:3.22.0:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.jline:jline:jar:3.22.0:compile (sources = true)
+2025.10.24 08:59:27 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.22.0/jline-3.22.0-sources.jar
+2025.10.24 08:59:27 INFO  Progress (1): 7.7/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 16/551 kB 
+2025.10.24 08:59:27 INFO  Progress (1): 32/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 49/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 53/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 69/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 86/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 102/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 118/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 135/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 151/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 168/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 184/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 192/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 200/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 217/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 233/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 250/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 266/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 282/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 299/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 315/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 323/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 339/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 355/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 372/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 388/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 405/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 421/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 437/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 454/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 470/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 486/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 503/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 519/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 536/551 kB
+2025.10.24 08:59:27 INFO  Progress (1): 551 kB    
+2025.10.24 08:59:27 INFO                      
+2025.10.24 08:59:27 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/jline/jline/3.22.0/jline-3.22.0-sources.jar (551 kB at 5.6 MB/s)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.jline:jline:jar:3.22.0:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: net.java.dev.jna:jna:jar:5.13.0:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: net.java.dev.jna:jna:jar:5.13.0:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: net.java.dev.jna:jna:jar:5.13.0:compile (sources = true)
+2025.10.24 08:59:27 INFO  Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0-sources.jar
+2025.10.24 08:59:27 INFO  Progress (1): 7.7/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 16/164 kB 
+2025.10.24 08:59:27 INFO  Progress (1): 32/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 49/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 65/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 81/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 98/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 114/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 131/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 147/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 163/164 kB
+2025.10.24 08:59:27 INFO  Progress (1): 164 kB    
+2025.10.24 08:59:27 INFO                      
+2025.10.24 08:59:27 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0-sources.jar (164 kB at 2.0 MB/s)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: net.java.dev.jna:jna:jar:5.13.0:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Generated .bloop/formacion-scala.json
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-library:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-library:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-library:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-library:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-compiler:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-compiler:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-compiler:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-compiler:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-reflect:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-reflect:jar:2.13.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.scala-lang:scala-reflect:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.scala-lang:scala-reflect:jar:2.13.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: io.github.java-diff-utils:java-diff-utils:jar:4.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: io.github.java-diff-utils:java-diff-utils:jar:4.12:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: io.github.java-diff-utils:java-diff-utils:jar:4.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: io.github.java-diff-utils:java-diff-utils:jar:4.12:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.jline:jline:jar:3.22.0:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.jline:jline:jar:3.22.0:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: org.jline:jline:jar:3.22.0:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: org.jline:jline:jar:3.22.0:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: net.java.dev.jna:jna:jar:5.13.0:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: net.java.dev.jna:jna:jar:5.13.0:compile (sources = false)
+2025.10.24 08:59:27 INFO  [INFO] Resolving artifact: net.java.dev.jna:jna:jar:5.13.0:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] SUCCESS: net.java.dev.jna:jna:jar:5.13.0:compile (sources = true)
+2025.10.24 08:59:27 INFO  [INFO] Generated .bloop/formacion-scala-test.json
+2025.10.24 08:59:27 INFO  [INFO] ------------------------------------------------------------------------
+2025.10.24 08:59:27 INFO  [INFO] BUILD SUCCESS
+2025.10.24 08:59:27 INFO  [INFO] ------------------------------------------------------------------------
+2025.10.24 08:59:27 INFO  [INFO] Total time:  3.907 s
+2025.10.24 08:59:27 INFO  [INFO] Finished at: 2025-10-24T08:59:28+02:00
+2025.10.24 08:59:27 INFO  [INFO] ------------------------------------------------------------------------
+2025.10.24 08:59:28 INFO  time: ran 'mvn bloopInstall' in 7.74s
+2025.10.24 08:59:28 INFO  Attempting to connect to the build server...
+2025.10.24 08:59:28 INFO  No running Bloop server found, starting one.
+2025.10.24 08:59:41 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/2-variables.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:41 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:41 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/2-variables.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:41 WARN  no build target for: /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/2-variables.scala
+2025.10.24 08:59:41 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:41 INFO  no build target found for /Users/ivan/formacionApacheScala/formacionScala/src/main/scala/9-streams.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.10.24 08:59:43 INFO  Starting compilation server
+2025.10.24 08:59:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ivan/formacionApacheScala/.metals/bsp.trace.json or /Users/ivan/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.10.24 08:59:49 INFO  time: Connected to build server in 21s
+2025.10.24 08:59:49 INFO  Connected to Build server: Bloop v2.0.16
+2025.10.24 08:59:49 INFO  time: Imported build in 0.13s
+2025.10.24 08:59:49 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2
+2025.10.24 08:59:57 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.10.24 09:00:11 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:00:15 INFO  time: indexed workspace in 25s
+2025.10.24 09:00:15 INFO  Deduplicating compilation of formacion-scala from bsp client 'Metals 1.6.3' (since 30.286s)
+2025.10.24 09:00:15 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:00:18 INFO  time: compiled formacion-scala in 2.37s
+2025.10.24 09:00:20 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:00:23 INFO  time: compiled formacion-scala in 2.72s
+2025.10.24 09:00:27 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:00:29 INFO  time: compiled formacion-scala in 2.12s
+2025.10.24 09:00:38 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:00:40 INFO  time: compiled formacion-scala in 2.52s
+2025.10.24 09:00:44 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:00:46 INFO  time: compiled formacion-scala in 1.93s
+2025.10.24 09:00:54 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:00:56 INFO  time: compiled formacion-scala in 1.76s
+2025.10.24 09:01:02 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:01:03 INFO  time: compiled formacion-scala in 1.19s
+2025.10.24 09:01:14 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:01:16 INFO  time: compiled formacion-scala in 1.19s
+2025.10.24 09:01:41 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:01:41 INFO  time: compiled formacion-scala in 0.71s
+2025.10.24 09:01:58 INFO  compiling formacion-scala (11 scala sources)
+2025.10.24 09:02:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2025.10.24 09:02:06 INFO  time: compiled formacion-scala in 9.41s
+2025.10.24 09:02:06 INFO  compiling formacion-scala (1 scala source)
+2025.10.24 09:02:09 INFO  time: compiled formacion-scala in 2.05s
+oct 24, 2025 9:02:51 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
