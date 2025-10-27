@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.formacion</groupId>
-    <artifactId>formacion-scala</artifactId>
-    <version>1.0.0</version>
-    <!-- La forma en la que nuestro proyecto se empaqueta para su distribución -->
-    <!-- 
-        .java -> compilacion (javac)   -> .class (bytecode de Java) \ 
-        .scala -> compilacion (scalac) -> .class (bytecode de Java) / Todos ellos los metemos en un zip -> extensión .jar
-        Eso es lo que se distribuye. Eso es lo que pasamos a la JVM para que lo ejecute.
+    <groupId>com.curso</groupId>
+    <artifactId>formacionApacheSpark</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-        Para otro tipo de proyectos (app Web, librerías, etc.) el packaging puede ser distinto
-    -->
-    <packaging>jar</packaging>
 
-    <!-- Metadatos-->
-    <name>Formación Scala</name>
-    <description>Proyecto de formación en Scala - Conceptos básicos</description>
 
-    <!-- 
+    <!--
       Aquí podemos definir:
      - Variables que podemos usar a lo largo de to do el POM: scala.version
      - Podemos sumnistrar variable de configuración para los plugins que usemos:
@@ -45,13 +33,27 @@
             <artifactId>scala-library</artifactId>
             <version>${scala.version}</version>
         </dependency>
-        
+
         <!-- Scala Compiler (para poder compilar) -->
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-compiler</artifactId>
             <version>${scala.version}</version>
         </dependency>
+        <!-- Dependencia de Apache Spark Core -->
+        <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.13</artifactId>
+            <version>3.5.7</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.17</version>
+        </dependency>
+
     </dependencies>
 
     <!-- Aquí se configuran los plugins-->
@@ -72,8 +74,8 @@
                     </execution>
                 </executions>
             </plugin>
-            
-            <!-- 
+
+            <!--
                 Plugin para ejecutar aplicaciones fácilmente. Esto está bien para pruebas.
                 En nuestro caso, trabajando con Spark, la ejecución de programa irá por otro lado!
                 Se hace de otra forma... muy distinta.
@@ -86,4 +88,7 @@
             </plugin>
         </plugins>
     </build>
+
+
+
 </project>
