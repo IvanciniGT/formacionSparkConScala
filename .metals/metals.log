@@ -2256,3 +2256,25 @@ Exception in thread "pool-15-thread-3" java.lang.InterruptedException
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 2025.10.27 10:36:11 INFO  Created report: Optional[file:///Users/ivan/formacionApacheScala/formacionScala/src/main/scala/1-basico.scala]
 2025.10.27 10:36:11 INFO  empty definition using pc, found symbol in pc:  (full report at: "/Users/ivan/formacionApacheScala/.metals/.reports/metals-full/2025-10-27/r_empty-definition_(formacion-scala)_10-36-11-629.md")
+2025.10.27 14:00:59 INFO  Shutting down server
+2025.10.27 14:00:59 INFO  shutting down Metals
+2025.10.27 14:01:01 INFO  Shut down connection with build server.
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@5afa04c[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 257093]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:462)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:468)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:371)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:295)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at bloop.rifle.internal.Operations$.$anonfun$bsp$1(Operations.scala:378)
+	at bloop.rifle.BloopRifleLogger.$anonfun$runnable$1(BloopRifleLogger.scala:14)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
