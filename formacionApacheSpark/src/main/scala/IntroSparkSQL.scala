@@ -101,10 +101,13 @@ object IntroSparkSQL {
                 "La letra no coincide"
             }
         }))
-        conexion.sql("""
+        val resultado =conexion.sql("""
             SELECT nombre, edad, provincia, dni, formatear(dni) AS dni_formateado
             FROM personas
-        """).show()
+        """)
+
+        // Guardamos el resultado en un fichero Parquet
+        resultado.write.mode("overwrite").parquet("/home/ubuntu/environment/personas_con_dni_formateado.parquet")
 
         // Cerra la sesión con el cluster
         conexion.stop()
