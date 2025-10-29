@@ -68,3 +68,51 @@ TWEET:
  RDD [Tweet]            -> RDD[String]         -> Dataframe[ColumanHashtag] -> Dataframe[hashtag, Recuento]
 
  DataFrame[5 columnas]  -> RDD[String]         -> Dataframe[ColumanHashtag] -> Dataframe[hashtag, Recuento]
+
+
+ ---
+
+# Parquet
+
+Parquet es binario, a diferencia de TXT/CSV que es texto plano.
+
+Dicho de otra forma: Un DNI en un archivo csv, json, ocupa 9 bytes
+En un binario, si guardo el número como número: 4 bytes
+Y si acaso guardo la letra como carácter: 1 byte
+
+Cuando trabajo con muchos datos, me interesan formatos binarios como Parquet o Avro. No de texto plano.
+
+Dentro de los binarios tenemos Parquet y Avro (los más usados en Big Data)
+
+Ambos empiezan igual: Esquema + Datos
+Pero cambian en la forma de guardar los datos.
+- AVRO orientado a filas
+- PARQUET orientado a columnas
+
+
+---
+
+AVRO:
+Schema:
+    Nombre: String
+    Edad: Int
+    DNI: String
+Datos:
+    "Juan", 30, "12345678Z"
+    "Ana",  25, "87654321X"
+    "Luis", 40, "11223344A"
+---
+
+PARQUET:
+Schema:
+    Nombre: String
+    Edad: Int
+    DNI: String
+Datos:
+    Nombres: "Juan", "Ana", "Luis"
+    Edades: 30, 25, 40
+    DNIs: "12345678Z", "87654321X", "11223344A"
+
+Si necesito procesar DATO A DATO, me interesa AVRO (es lo que solemos dejar en un KAFKA)
+Para operaciones de Análisis de datos, me interesa PARQUET (es lo que solemos dejar en un HDFS o S3)
+Calculame la media de las ventas para las distintas provincias.
