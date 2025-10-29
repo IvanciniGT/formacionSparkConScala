@@ -220,3 +220,17 @@ Imaginad que tengo una tabla de clientes, donde me viene un DNI.... y quiero val
 Tengo en SQL una función que me permita validar un DNI? NO... Este no es el escenario donde necesitemos ir a RDDs y SparkCore.
 SparkSQL me permite definir mis propias funciones (UDFs: User Defined Functions) para este tipos de escenarios.
 Pero otro tipo de transformaciones más complejas, que no encajen en SQL, me tocará hacerlas en RDDs y SparkCore.
+
+
+
+TABLA:
+COLUMNA1
+"#veranito#GoodVibes#FriendForever#PedoPis"
+
+
+TABLA: COLUMNA 1
+HASHTAG        COUNT
+veranito       3
+GoodVibes
+FriendForever  1
+PedoPis
